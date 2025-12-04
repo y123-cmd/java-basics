@@ -3,45 +3,51 @@ import java.util.Scanner;
 public class Calculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        String choice;
 
-        System.out.println("Enter first number:");
-        int num1 = input.nextInt();
+        do {
+            System.out.println("Enter first number:");
+            int num1 = input.nextInt();
 
-        System.out.println("Enter second number:");
-        int num2 = input.nextInt();
+            System.out.println("Enter second number:");
+            int num2 = input.nextInt();
 
-        System.out.println("Enter the operation (+, -, *, /, %):");
-        String operator = input.next();
+            System.out.println("Enter the operation (+, -, *, /, %):");
+            String operator = input.next();
 
-        switch (operator) {
-            case "+":
-                System.out.println("Result: " + (num1 + num2));
-                break;
-            case "-":
-                System.out.println("Result: " + (num1 - num2));
-                break;
-            case "*":
-                System.out.println("Result: " + (num1 * num2));
-                break;
-            case "/":
-                if (num2 != 0) {
-                    System.out.println("Result: " + (num1 / num2));
-                } else {
-                    System.out.println("Cannot divide by zero!");
-                }
-                break;
-            case "%":
-                System.out.println("Result: " + (num1 % num2));
-                break;
-            default:
-                System.out.println("Invalid operation");
-                break;
-        }
+            switch (operator) {
+                case "+":
+                    System.out.println("Result: " + (num1 + num2));
+                    break;
+                case "-":
+                    System.out.println("Result: " + (num1 - num2));
+                    break;
+                case "*":
+                    System.out.println("Result: " + (num1 * num2));
+                    break;
+                case "/":
+                    if (num2 != 0) {
+                        System.out.println("Result: " + (num1 / num2));
+                    } else {
+                        System.out.println("Cannot divide by zero!");
+                    }
+                    break;
+                case "%":
+                    System.out.println("Result: " + (num1 % num2));
+                    break;
+                default:
+                    System.out.println("Invalid operation");
+                    break;
+            }
+
+            // Ask user if they want to do another operation
+            System.out.println("Do you want to continue? (yes/no)");
+            choice = input.next();
+
+        } while (choice.equalsIgnoreCase("yes"));
+
+        System.out.println("Calculator closed. Goodbye!");
 
         input.close();
     }
 }
-
-
-
-
