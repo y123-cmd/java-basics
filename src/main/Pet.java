@@ -66,7 +66,7 @@ class PetManager {
         myCat.eat();
         myCat.sleep();
         myCat.makesound();
-        System.out.println(myCat.getName() + "is a " + myCat.getType() + "and is" + myCat.getAge());
+        System.out.println(myCat.getName() + "is a " + myCat.getType() + "and is" + myCat.getAge()+ "years old");
     }
 }
 
