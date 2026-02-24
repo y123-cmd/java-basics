@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="MySQL_conn" uuid="70373ef7-c32a-4ef8-b1f3-0a6ef896ac55">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.host.port" />
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+        <property name="com.intellij.clouds.kubernetes.db.container.port" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Customers" uuid="d4c8c1b4-a461-40df-a99c-d8ee6d86a61a">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.host.port" />
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+        <property name="com.intellij.clouds.kubernetes.db.container.port" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="accounts" uuid="13b20cf9-57c7-4810-bab8-309ad11c1b77">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.host.port" />
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+        <property name="com.intellij.clouds.kubernetes.db.container.port" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Corporate System" uuid="b660a610-35db-4ff0-92c0-544a815af475">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.host.port" />
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+        <property name="com.intellij.clouds.kubernetes.db.container.port" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="customers" uuid="caddab0d-c473-44b9-b185-84a320cde536">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.host.port" />
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+        <property name="com.intellij.clouds.kubernetes.db.container.port" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="transaction" uuid="ee14672f-85b0-418f-839c-c08fe39a5d44">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.host.port" />
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+        <property name="com.intellij.clouds.kubernetes.db.container.port" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>

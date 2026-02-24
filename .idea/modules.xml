@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bank Management System/Bank Management System.iml" filepath="$PROJECT_DIR$/Bank Management System/Bank Management System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java Collections/Java Collections.iml" filepath="$PROJECT_DIR$/Java Collections/Java Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Notification System/Notification System.iml" filepath="$PROJECT_DIR$/Notification System/Notification System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Payment System/Payment System.iml" filepath="$PROJECT_DIR$/Payment System/Payment System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shape/Shape.iml" filepath="$PROJECT_DIR$/Shape/Shape.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Smart Banking Notification System.iml" filepath="$PROJECT_DIR$/Smart Banking Notification System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vehicle Rental/Vehicle Rental.iml" filepath="$PROJECT_DIR$/Vehicle Rental/Vehicle Rental.iml" />
+    </modules>
+  </component>
+</project>
